@@ -9,6 +9,8 @@ import numpy as np
 
 import tensorflow as tf
 
+model=tf.keras.models.load_model('keras_model.h5')
+
 
 # Anexando a câmera indexada como 0, com o software da aplicação
 camera = cv2.VideoCapture(0)
